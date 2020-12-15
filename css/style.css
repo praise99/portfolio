@@ -171,6 +171,7 @@ html {
   width: 100%;
   pointer-events: all;
 }
+
 .out {
   opacity: 0;
   width: 0;
@@ -780,7 +781,13 @@ a {
   background-color: transparent;
   color: var(--primary-gray-blue);
 }
+.shoot {
+  font-size: 3rem;
+}
 @media (max-width: 480.98px) {
+  .reach-get2 {
+    flex-direction: column;
+  }
   .reach-get,
   .contact-me {
     flex-direction: column;
@@ -806,6 +813,9 @@ a {
   }
 }
 @media (min-width: 481px) and (max-width: 767.98px) {
+  .reach-get2 {
+    flex-direction: column;
+  }
   .reach-get,
   .contact-me {
     flex-direction: column;
