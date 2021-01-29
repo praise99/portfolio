@@ -54,3 +54,49 @@ button.addEventListener("click", () => {
 //     disablelightmode();
 //   }
 // });
+let project=document.querySelector(".second")
+let see=document.querySelector(".sugr")
+let margin=document.querySelector(".rep")
+project.addEventListener("mouseout",()=>{
+  see.classList.toggle("pencil");
+  margin.classList.toggle("project-title-sub")
+})
+project.addEventListener("mouseover",()=>{
+  see.classList.toggle("pencil");
+  margin.classList.toggle("project-title-sub")
+})
+
+
+let project2=document.querySelector(".first")
+let see2=document.querySelector(".sugr2")
+let margin2=document.querySelector(".rep2")
+project2.addEventListener("mouseout",()=>{
+  see2.classList.toggle("pencil");
+  margin2.classList.toggle("project-title-sub")
+})
+project2.addEventListener("mouseover",()=>{
+  see2.classList.toggle("pencil");
+  margin2.classList.toggle("project-title-sub")
+})
+let project3=document.querySelector(".third")
+let see3=document.querySelector(".sugr3")
+let margin3=document.querySelector(".rep3")
+project3.addEventListener("mouseout",()=>{
+  see3.classList.toggle("pencil");
+  margin3.classList.toggle("project-title-sub")
+})
+project3.addEventListener("mouseover",()=>{
+  see3.classList.toggle("pencil");
+  margin3.classList.toggle("project-title-sub")
+})
+let project4=document.querySelector(".fourth")
+let see4=document.querySelector(".sugr4")
+let margin4=document.querySelector(".rep4")
+project4.addEventListener("mouseout",()=>{
+  see4.classList.toggle("pencil");
+  margin4.classList.toggle("project-title-sub")
+})
+project4.addEventListener("mouseover",()=>{
+  see4.classList.toggle("pencil");
+  margin4.classList.toggle("project-title-sub")
+})

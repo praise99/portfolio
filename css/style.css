@@ -1335,3 +1335,21 @@ a {
   left: 0;
   right: 0;
 }
+.project-title-sub {
+  margin-top: -9rem;
+  color: black;
+  opacity: 0.8;
+}
+.sugr,
+.sugr2,
+.sugr3,
+.sugr4 {
+  opacity: 0;
+}
+.pencil {
+  opacity: 1;
+  padding: 0 2rem;
+  text-align: center;
+  color: black;
+  opacity: 0.6;
+}
