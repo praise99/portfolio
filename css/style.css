@@ -504,7 +504,7 @@ li {
     flex-direction: column;
   }
   .img-about {
-    width: 100%;
+    width: 40%;
   }
   .heading-desc {
     position: relative;
