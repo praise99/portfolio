@@ -7,12 +7,15 @@ let logo=document.querySelector(".logo")
 let github=document.querySelector(".github-tree")
 let twitter=document.querySelector(".twitter-tree")
 let linkedin=document.querySelector(".linkedin-tree")
+logo.src="../images/logo2.svg"
+darkButton.src="../images/light.png"
 // localStorage.clear()
-if(localStorage.getItem("darkMode") === "null"){
-    console.log("true")
+if (localStorage.getItem("darkMode") === "null") {
+    console.log("falsenull")
     logo.src="../images/logo2.svg"
-    darkButton.src="../images/light.png"
-}else{
+darkButton.src="../images/light.png"
+  }
+else if("darkMode" in localStorage){
     console.log("false")
     let buttonMode = localStorage.getItem("button");
     let logoMode = localStorage.getItem("logo");
