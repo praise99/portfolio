@@ -1049,7 +1049,9 @@ a {
 .first:hover,
 .second:hover,
 .third:hover,
-.fourth:hover {
+.fourth:hover,
+.fifth:hover,
+.sixth:hover {
   background: linear-gradient(180deg, #f3cbab, #feedca);
   transform: scale(1.1);
   color: var(--primary-Desaturated-Cyan);
@@ -1063,7 +1065,9 @@ a {
 .third {
   background: linear-gradient(180deg, #dbb4f3, #efb7d7);
 }
-.fourth {
+.fourth,
+.fifth,
+.sixth {
   background: linear-gradient(180deg, #b1e5f9, #f4d2fe);
 }
 @media (max-width: 480.98px) {
@@ -1367,7 +1371,9 @@ a {
 .sugr,
 .sugr2,
 .sugr3,
-.sugr4 {
+.sugr4,
+.sugr5,
+.sugr6 {
   opacity: 0;
 }
 .pencil {
